@@ -1,0 +1,46 @@
+product:
+  product: "Produits"
+  title: "Liste des Produits"
+  name: "Nom"
+  picture: "Photo"
+  quantity: "Quantité"
+  quantityDisp: "Quantité disponible"
+  price: "Prix"
+  delete: "Supprimer"
+  noProduct: "Il n'y a pas de produit. Veuillez ajouter un produit."
+  addProductTitle: "Ajouter un produit"
+
+cart:
+  cart: "Panier"
+  title: "Mon Panier"
+  name: "Nom"
+  picture: "Photo"
+  quantity: "Quantité"
+  price: "Prix"
+  nbProductTxt: "Produit"
+  nbProductTxts: "Produits"
+  noProductCart: "Votre Panier est vide"
+  deleteCart: "Supprimer"
+
+Quantity: "Quantité"
+Add: "Ajouter"
+Name: "Nom"
+Price: "Prix"
+Photo (PDF file): "Photo"
+Addcart: "Ajouter au panier"
+
+navbar:
+  product: "Produit"
+  cart: "Panier"
+
+flash:
+  product:
+    added: "Produit ajouté"
+    noAdded: "Le produit n'a pas été ajouté. Veuillez ressayer !"
+    addCart: "Produit ajouté au panier"
+    errorAddCart: "Une erreur est survenue lors de l'ajout au panier . Veuillez ressayer !"
+    delete: "Le produit a bien été supprimé"
+    retry: "une erreur est survenue . Veuillez ressayer"
+  cart:
+    delete: "Le produit a été supprimé du panier"
+    error: "Une erreur est survenue veuillez reesayer !"

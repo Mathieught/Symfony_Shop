@@ -1,0 +1,34 @@
+product:
+  product: "Products"
+  title: "Product list"
+  name: "Name"
+  picture: "Picture"
+  quantity: "Quantity"
+  quantityDisp: "Available quantity"
+  price: "Price"
+  delete: "Delete"
+  noProduct: "There is no product. Please add a product."
+  addProductTitle: "Add a product"
+
+cart:
+  cart: "Cart"
+  title: "Your Cart"
+  name: "Name"
+  picture: "Picture"
+  quantity: "Quantity"
+  price: "Price"
+  nbProductTxt: "Product"
+  nbProductTxts: "Products"
+  noProductCart: "Your cart is empty"
+  deleteCart: "Delete"
+
+Quantity: "Quantity"
+Add: "Add"
+Name: "Name"
+Price: "Price"
+Photo (PDF file): "Picture"
+Addcart: "Add to your cart"
+
+navbar:
+  product: "Product"
+  cart: "Cart"

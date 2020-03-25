@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	{{ product.name}}
+{% endblock %}
+
+{% block body %}
+
+<div class="row bord" >
+<div class="row">
+<h1 class="text-center w-100">{{ product.name }}</h1>
+</div>
+<div class="row">
+	<div class="col">
+		<img src="{{ asset('/uploads/'~ product.picture) }}">
+	</div>
+	<div class="col">
+		<div class="row">
+			<p>{{'product.quantityDisp'|trans}} : {{ product.quantity }}</p>	
+		</div>
+		<div class="row">
+			<p>{{'product.price'|trans}} : {{ product.price}}</p>	
+		</div>
+		<div class="row">
+			{{ form(form_add_cart) }}
+		</div>
+		<div class="row">
+			<a class="btn btn-danger" href="{{ path('delete_product', {'id':product.id}) }}">{{'product.delete'|trans}}</a>
+		</div>
+	</div>
+	</div>
+</div>
+
+<style>
+
+h1.text-center.w-100 {
+	font-weight:bold;
+	border-bottom: 1px solid black;
+}
+.row {
+  width: 100%;
+	text-align:center;
+	margin:0;
+}
+.row p{
+	width: 100%;
+	text-align:center;
+}
+.row form {
+    width: 100%;
+}
+.row a.btn.btn-danger {
+  margin: auto;
+}
+.col {
+	padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bord{
+  width: 90%;
+  border: 1px solid black;
+  margin: 50px;
+}
+.col img{
+	width: 100%;
+  max-width: 500px;
+  min-width: 500px;
+	padding: 10px;
+}
+</style>
+{% endblock %}
